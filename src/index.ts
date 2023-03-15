@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 // @ts-ignore
-import { ChatGPTAPIBrowser, ChatResponse, SendMessageOptions } from "chatgpt";
+import { ChatGPTAPIBrowser, ChatResponse, SendMessageOptions } from "./chatgpt";
 import { loadConfig, getAccessToken } from "./lib";
 import express from "express";
 import AsyncRetry from "async-retry";
